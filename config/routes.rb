@@ -14,6 +14,11 @@ Rails.application.routes.draw do
   resources :orders, only: [:show, :create]
 
 
+  namespace :api, defaults: { format: :json } do
+    post 'bot/commands', to: 'bot#process_command'
+  end
+
+
 
 
 
