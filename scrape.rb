@@ -41,7 +41,7 @@ def scrape_largest_selling_pharmaceuticals
     }
   end
 
-  # Now you can process and store the extracted data as required
+  # Now you can process and store the extracted data as required 
   data.each do |entry|
     puts "Rank: #{entry[:rank]}"
     puts "Brand Name(s): #{entry[:brand_name]}"
