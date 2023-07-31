@@ -23,7 +23,6 @@
       <%= f.label :province_id %>
       <%= f.select :province_id, Province.all.map { |province| [province.name, province.id] }, { include_blank: true }, class: "form-control", required: true %>
     </div>
-
     <%= f.submit "Proceed to Checkout", class: "btn btn-primary" %>
   <% end %>
 </div>
