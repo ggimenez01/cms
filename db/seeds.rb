@@ -36,4 +36,5 @@ csv_data.each do |row|
   puts "uom: #{product.uom}"
 end
 
+
 AdminUser.create!(email: 'admin@gdigital.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
