@@ -1,4 +1,5 @@
 class Category < ApplicationRecord
+<<<<<<< HEAD
   has_many :products
   validates :name, presence: true
 
@@ -13,4 +14,19 @@ class Category < ApplicationRecord
   def self.ransackable_associations(auth_object = nil)
     ["products"]
   end
+=======
+    has_many :products
+
+    def self.ransackable_attributes(auth_object = nil)
+        ["created_at", "id", "name", "updated_at"]
+      end
+
+      def self.ransackable_attributes(auth_object = nil)
+        ['name', 'description'] + super
+      end
+    
+      def self.ransackable_associations(auth_object = nil)
+        ['products']
+    end
+>>>>>>> origin/master
 end

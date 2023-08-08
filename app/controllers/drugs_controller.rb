@@ -1,6 +1,11 @@
 # app/controllers/drugs_controller.rb
+<<<<<<< HEAD
 require "nokogiri"
 require "open-uri"
+=======
+require 'nokogiri'
+require 'open-uri'
+>>>>>>> origin/master
 
 class DrugsController < ApplicationController
   def best_selling
@@ -10,6 +15,7 @@ class DrugsController < ApplicationController
   private
 
   def scrape_largest_selling_pharmaceuticals
+<<<<<<< HEAD
     url = "https://en.wikipedia.org/wiki/List_of_largest_selling_pharmaceutical_products#Largest_selling_pharmaceutical_products_of_2015"
     doc = Nokogiri::HTML(URI.open(url))
 
@@ -22,6 +28,20 @@ class DrugsController < ApplicationController
     data = []
     rows.each do |row|
       columns = row.css("td")
+=======
+    url = 'https://en.wikipedia.org/wiki/List_of_largest_selling_pharmaceutical_products#Largest_selling_pharmaceutical_products_of_2015'
+    doc = Nokogiri::HTML(URI.open(url))
+
+    # Find the table containing the desired data
+    table = doc.css('table.wikitable')[1] # Use the second table on the page
+
+    # Find and process the data you need
+    rows = table.css('tr')
+
+    data = []
+    rows.each do |row|
+      columns = row.css('td')
+>>>>>>> origin/master
 
       next if columns.empty? # Skip header row
 
@@ -37,6 +57,7 @@ class DrugsController < ApplicationController
 
       # Add the extracted data to the data array
       data << {
+<<<<<<< HEAD
         rank:,
         brand_name:,
         generic_name:,
@@ -46,6 +67,17 @@ class DrugsController < ApplicationController
         disease_medical_use:,
         first_approval_date:,
         patent_expiration_date:
+=======
+        rank: rank,
+        brand_name: brand_name,
+        generic_name: generic_name,
+        sales_q1_2014: sales_q1_2014,
+        change_from_q4_2013: change_from_q4_2013,
+        companies: companies,
+        disease_medical_use: disease_medical_use,
+        first_approval_date: first_approval_date,
+        patent_expiration_date: patent_expiration_date
+>>>>>>> origin/master
       }
     end
 

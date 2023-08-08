@@ -2,6 +2,7 @@
 
 one:
   customer: one
+<<<<<<< HEAD
   total: 9.99
   status: MyString
 
@@ -9,3 +10,12 @@ two:
   customer: two
   total: 9.99
   status: MyString
+=======
+  product: one
+  quantity: 1
+
+two:
+  customer: two
+  product: two
+  quantity: 1
+>>>>>>> origin/master

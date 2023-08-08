@@ -14,7 +14,11 @@ ActiveAdmin.setup do |config|
   # Set an optional image to be displayed for the header
   # instead of a string (overrides :site_title)
   #
+<<<<<<< HEAD
   # Note: Aim for an image that's 21px high so it fits in the header.
+=======
+  # Note: Aim for an image that's 21px high so it fits in the header
+>>>>>>> origin/master
   #
   # config.site_title_image = "logo.png"
 

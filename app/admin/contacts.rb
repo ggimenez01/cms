@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# app/admin/contacts.rb
+>>>>>>> origin/master
 ActiveAdmin.register Contact do
   permit_params :name, :email, :address, :phone_number
 

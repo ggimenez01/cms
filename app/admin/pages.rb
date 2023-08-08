@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# app/admin/pages.rb
+>>>>>>> origin/master
 ActiveAdmin.register Page do
 
   # See permitted parameters documentation:

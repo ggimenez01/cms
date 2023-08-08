@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# app/admin/admin_users.rb
+>>>>>>> origin/master
 ActiveAdmin.register AdminUser do
   permit_params :email, :password, :password_confirmation
 

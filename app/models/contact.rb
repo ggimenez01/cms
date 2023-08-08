@@ -1,4 +1,5 @@
 class Contact < ApplicationRecord
+<<<<<<< HEAD
   validates :name, presence: true
   validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }
   validates :address, presence: true
@@ -10,4 +11,13 @@ class Contact < ApplicationRecord
   def self.ransackable_associations(auth_object = nil)
     []
   end
+=======
+    def self.ransackable_attributes(auth_object = nil)
+        ["name", "email", "address", "phone_number"]
+      end
+    
+      def self.ransackable_associations(auth_object = nil)
+        []
+      end
+>>>>>>> origin/master
 end

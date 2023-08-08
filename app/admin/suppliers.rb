@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 ActiveAdmin.register Supplier do
   permit_params :name, :address, :phone_number
+=======
+# app/admin/suppliers.rb
+ActiveAdmin.register Supplier do
+
+>>>>>>> origin/master
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
