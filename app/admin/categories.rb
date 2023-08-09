@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # app/admin/category.rb
-=======
-# app/admin/categories.rb
->>>>>>> origin/master
 ActiveAdmin.register Category do
   permit_params :name, :description
 
@@ -29,9 +25,4 @@ ActiveAdmin.register Category do
     column :updated_at
     actions
   end
-<<<<<<< HEAD
 end
-=======
-end
-
->>>>>>> origin/master

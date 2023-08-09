@@ -5,12 +5,9 @@ ActiveAdmin.register Product do
   filter :name
   filter :price
   filter :on_sale
-<<<<<<< HEAD
   filter :category, as: :select, collection: Category.pluck(:name, :id) # Assuming Category model has a name attribute
   filter :supplier, as: :select, collection: Supplier.pluck(:name, :id) # Assuming Supplier model has a name attribute
 
-=======
->>>>>>> origin/master
   form do |f|
     f.semantic_errors *f.object.errors.attribute_names.map(&:to_sym)
     f.inputs do
@@ -18,13 +15,8 @@ ActiveAdmin.register Product do
       f.input :description
       f.input :price
       f.input :on_sale
-<<<<<<< HEAD
       f.input :category
       f.input :supplier
-      f.input :uom
-
-=======
->>>>>>> origin/master
     end
     f.inputs "Images" do
       f.input :image, as: :file, hint: f.object.image.present? ? image_tag(f.object.image.url, height: "150") : content_tag(:span, "No image yet")
@@ -49,10 +41,7 @@ ActiveAdmin.register Product do
     column :uom
     column :price
     column :category
-<<<<<<< HEAD
     column :supplier
-=======
->>>>>>> origin/master
     column :on_sale
     actions
   end

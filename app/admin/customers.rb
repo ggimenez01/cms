@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 ActiveAdmin.register Customer do
-=======
-# app/admin/customers.rb
-ActiveAdmin.register Customer do
-  permit_params :name, :address, :email
->>>>>>> origin/master
 
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters

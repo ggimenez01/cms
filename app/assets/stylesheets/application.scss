@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* app/assets/stylesheets/application.scss */
 @import 'bootstrap';
 
@@ -30,27 +29,3 @@ nav.pagination {
     height: 150px; /* Set the desired height for the logo */
   }
   
-=======
-$size-base: 50px;    // use of variables
-
-%size-properties {
-  width: $size-base;
-  height: $size-base;
-}
-
-.logo-img {
-  @extend %size-properties; // inheritance
-  width: $size-base * 3; // using multiplication operator
-}
-
-.img-thumbnail {    
-  @extend %size-properties;
-  max-width: $size-base * 2; // using multiplication operator  
-  max-height: $size-base * 2; // using multiplication operator
-
-  // nesting img tag inside the img-thumbnail
-  img {
-    border-radius: $size-base / 5; // using division operator
-  }
-}
->>>>>>> origin/master

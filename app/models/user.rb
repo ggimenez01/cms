@@ -3,7 +3,6 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-<<<<<<< HEAD
 
   belongs_to :province
   validates :email, presence: true, uniqueness: true,
@@ -17,6 +16,4 @@ format: { with: URI::MailTo::EMAIL_REGEXP }
   def self.ransackable_attributes(auth_object = nil)
     %w[id name address email province_id created_at updated_at]
   end
-=======
->>>>>>> origin/master
 end

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-# app/admin/abouts.rb
->>>>>>> origin/master
 ActiveAdmin.register About do
   permit_params :title, :content
 

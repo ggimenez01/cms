@@ -1,5 +1,4 @@
 class Supplier < ApplicationRecord
-<<<<<<< HEAD
   has_many :products
   validates :name, :address, presence: true
 
@@ -10,7 +9,4 @@ class Supplier < ApplicationRecord
   def self.ransackable_associations(auth_object = nil)
     ["products"]
   end
-=======
-    has_many :products
->>>>>>> origin/master
 end
