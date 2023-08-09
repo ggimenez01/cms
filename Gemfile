@@ -3,11 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-<<<<<<< HEAD
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-=======
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main" 
->>>>>>> origin/master
 gem "rails", "~> 7.0.6"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
@@ -54,7 +50,6 @@ gem "csv"
 gem "faker"
 gem 'carrierwave'
 gem 'kaminari'
-<<<<<<< HEAD
 gem 'nokogiri'
 gem 'open-uri'
 gem 'kaminari-bootstrap'
@@ -64,14 +59,6 @@ gem 'rubocop'
 gem 'rubocop-rails'
 gem 'breadcrumbs_on_rails'
 
-=======
-gem 'jquery-rails'
-gem 'wicked_pdf'
-gem 'wkhtmltopdf-binary'
-gem 'nokogiri'
-gem 'open-uri'
-gem 'discordrb'
->>>>>>> origin/master
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
@@ -79,10 +66,6 @@ gem 'discordrb'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 end
 
 group :development do
@@ -102,8 +85,3 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master

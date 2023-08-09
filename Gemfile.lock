@@ -80,25 +80,19 @@ GEM
     arbre (1.6.0)
       activesupport (>= 3.0.0, < 7.1)
       ruby2_keywords (>= 0.0.2, < 1.0)
-<<<<<<< HEAD
     ast (2.4.2)
     autoprefixer-rails (10.4.13.0)
       execjs (~> 2)
-=======
->>>>>>> origin/master
     bcrypt (3.1.19)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
-<<<<<<< HEAD
     bootstrap (4.6.2)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.16.1, < 2)
       sassc-rails (>= 2.0.0)
     breadcrumbs_on_rails (4.1.0)
       railties (>= 5.0)
-=======
->>>>>>> origin/master
     builder (3.2.4)
     capybara (3.39.2)
       addressable
@@ -129,23 +123,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-<<<<<<< HEAD
     erubi (1.12.0)
     execjs (2.8.1)
-=======
-    discordrb (3.5.0)
-      discordrb-webhooks (~> 3.5.0)
-      ffi (>= 1.9.24)
-      opus-ruby
-      rest-client (>= 2.0.0)
-      websocket-client-simple (>= 0.3.0)
-    discordrb-webhooks (3.5.0)
-      rest-client (>= 2.0.0)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
-    erubi (1.12.0)
-    event_emitter (0.2.6)
->>>>>>> origin/master
     faker (3.2.0)
       i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
@@ -157,12 +136,6 @@ GEM
     has_scope (0.8.1)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
-<<<<<<< HEAD
-=======
-    http-accept (1.7.0)
-    http-cookie (1.0.5)
-      domain_name (~> 0.5)
->>>>>>> origin/master
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.2)
@@ -186,10 +159,7 @@ GEM
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
-<<<<<<< HEAD
     json (2.6.3)
-=======
->>>>>>> origin/master
     kaminari (1.2.2)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.2.2)
@@ -201,15 +171,11 @@ GEM
     kaminari-activerecord (1.2.2)
       activerecord
       kaminari-core (= 1.2.2)
-<<<<<<< HEAD
     kaminari-bootstrap (3.0.1)
       kaminari (>= 0.13.0)
       rails
     kaminari-core (1.2.2)
     language_server-protocol (3.17.0.3)
-=======
-    kaminari-core (1.2.2)
->>>>>>> origin/master
     loofah (2.21.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -221,12 +187,6 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     method_source (1.0.0)
-<<<<<<< HEAD
-=======
-    mime-types (3.4.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2023.0218.1)
->>>>>>> origin/master
     mini_magick (4.12.0)
     mini_mime (1.1.2)
     minitest (5.19.0)
@@ -240,10 +200,6 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-<<<<<<< HEAD
-=======
-    netrc (0.11.0)
->>>>>>> origin/master
     nio4r (2.5.9)
     nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
@@ -251,18 +207,12 @@ GEM
       stringio
       time
       uri
-<<<<<<< HEAD
     orm_adapter (0.5.0)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
     popper_js (1.16.1)
-=======
-    opus-ruby (1.0.1)
-      ffi
-    orm_adapter (0.5.0)
->>>>>>> origin/master
     public_suffix (5.0.3)
     puma (5.6.6)
       nio4r (~> 2.0)
@@ -298,10 +248,7 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0)
       zeitwerk (~> 2.5)
-<<<<<<< HEAD
     rainbow (3.1.1)
-=======
->>>>>>> origin/master
     rake (13.0.6)
     ransack (4.0.0)
       activerecord (>= 6.1.5)
@@ -313,7 +260,6 @@ GEM
     responders (3.1.0)
       actionpack (>= 5.2)
       railties (>= 5.2)
-<<<<<<< HEAD
     rexml (3.2.5)
     rubocop (1.55.1)
       json (~> 2.3)
@@ -333,14 +279,6 @@ GEM
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
     ruby-progressbar (1.13.0)
-=======
-    rest-client (2.1.0)
-      http-accept (>= 1.7.0, < 2.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 4.0)
-      netrc (~> 0.8)
-    rexml (3.2.5)
->>>>>>> origin/master
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
@@ -380,13 +318,7 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-<<<<<<< HEAD
     unicode-display_width (2.4.2)
-=======
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.8.2)
->>>>>>> origin/master
     uri (0.12.2)
     warden (1.2.9)
       rack (>= 2.0.9)
@@ -400,21 +332,9 @@ GEM
       rubyzip (>= 1.3.0)
       selenium-webdriver (~> 4.0)
     websocket (1.2.9)
-<<<<<<< HEAD
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-=======
-    websocket-client-simple (0.6.1)
-      event_emitter
-      websocket
-    websocket-driver (0.7.6)
-      websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.5)
-    wicked_pdf (2.6.3)
-      activesupport
-    wkhtmltopdf-binary (0.12.6.6)
->>>>>>> origin/master
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.6.9)
@@ -425,39 +345,24 @@ PLATFORMS
 DEPENDENCIES
   activeadmin
   bootsnap
-<<<<<<< HEAD
   bootstrap (~> 4.5, >= 4.5.2)
   breadcrumbs_on_rails
-=======
->>>>>>> origin/master
   capybara
   carrierwave
   csv
   debug
   devise
-<<<<<<< HEAD
   faker
   importmap-rails
   jbuilder
   kaminari
   kaminari-bootstrap
-=======
-  discordrb
-  faker
-  importmap-rails
-  jbuilder
-  jquery-rails
-  kaminari
->>>>>>> origin/master
   nokogiri
   open-uri
   puma (~> 5.0)
   rails (~> 7.0.6)
-<<<<<<< HEAD
   rubocop
   rubocop-rails
-=======
->>>>>>> origin/master
   sassc-rails
   selenium-webdriver
   sprockets-rails
@@ -467,11 +372,6 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers
-<<<<<<< HEAD
-=======
-  wicked_pdf
-  wkhtmltopdf-binary
->>>>>>> origin/master
 
 RUBY VERSION
    ruby 3.1.2p20
