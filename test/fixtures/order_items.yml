@@ -4,16 +4,8 @@ one:
   order: one
   product: one
   quantity: 1
-<<<<<<< HEAD
-=======
-  price: 9.99
->>>>>>> origin/master
 
 two:
   order: two
   product: two
   quantity: 1
-<<<<<<< HEAD
-=======
-  price: 9.99
->>>>>>> origin/master
