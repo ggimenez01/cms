@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema[7.0].define(version: 2023_08_06_174626) do
-=======
-ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
->>>>>>> origin/master
   create_table "abouts", force: :cascade do |t|
     t.string "title"
     t.text "content"
@@ -102,7 +98,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
     t.index ["province_id"], name: "index_customers_on_province_id"
   end
 
-<<<<<<< HEAD
   create_table "feedbacks", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -111,28 +106,19 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
     t.datetime "updated_at", null: false
   end
 
-=======
->>>>>>> origin/master
   create_table "order_items", force: :cascade do |t|
     t.integer "order_id", null: false
     t.integer "product_id", null: false
     t.integer "quantity"
-<<<<<<< HEAD
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.decimal "price"
-=======
-    t.decimal "price"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
->>>>>>> origin/master
     t.index ["order_id"], name: "index_order_items_on_order_id"
     t.index ["product_id"], name: "index_order_items_on_product_id"
   end
 
   create_table "orders", force: :cascade do |t|
     t.integer "customer_id", null: false
-<<<<<<< HEAD
     t.decimal "total"
     t.string "status"
     t.datetime "created_at", null: false
@@ -144,22 +130,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
     t.integer "user_id"
     t.index ["customer_id"], name: "index_orders_on_customer_id"
     t.index ["user_id"], name: "index_orders_on_user_id"
-=======
-    t.integer "product_id", null: false
-    t.integer "quantity"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "name"
-    t.string "address"
-    t.string "email"
-    t.integer "province_id"
-    t.decimal "total"
-    t.decimal "hst", precision: 8, scale: 2, default: "0.0"
-    t.decimal "gst", precision: 8, scale: 2, default: "0.0"
-    t.decimal "pst", precision: 8, scale: 2, default: "0.0"
-    t.index ["customer_id"], name: "index_orders_on_customer_id"
-    t.index ["product_id"], name: "index_orders_on_product_id"
->>>>>>> origin/master
   end
 
   create_table "pages", force: :cascade do |t|
@@ -181,11 +151,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
     t.string "mat_id"
     t.integer "supplier_id", null: false
     t.boolean "on_sale", default: false
-<<<<<<< HEAD
-=======
-    t.integer "quantity_in_cart"
-    t.decimal "price_in_cart"
->>>>>>> origin/master
     t.index ["category_id"], name: "index_products_on_category_id"
     t.index ["supplier_id"], name: "index_products_on_supplier_id"
   end
@@ -221,15 +186,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-<<<<<<< HEAD
     t.string "address"
     t.integer "province_id", null: false
     t.string "name"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["province_id"], name: "index_users_on_province_id"
-=======
-    t.index ["email"], name: "index_users_on_email", unique: true
->>>>>>> origin/master
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
@@ -239,16 +200,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_30_163752) do
   add_foreign_key "order_items", "orders"
   add_foreign_key "order_items", "products"
   add_foreign_key "orders", "customers"
-<<<<<<< HEAD
   add_foreign_key "orders", "users"
   add_foreign_key "products", "categories"
   add_foreign_key "products", "suppliers"
   add_foreign_key "tax_rates", "provinces"
   add_foreign_key "users", "provinces"
-=======
-  add_foreign_key "orders", "products"
-  add_foreign_key "products", "categories"
-  add_foreign_key "products", "suppliers"
-  add_foreign_key "tax_rates", "provinces"
->>>>>>> origin/master
 end
